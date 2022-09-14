@@ -1,0 +1,59 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+section {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+
+.konten {
+    background-color: #150544;
+    height: 1500px;
+    width: 75%;
+    border-top-right-radius: 50px;
+    margin-left: 250px;
+    width: 100%;
+}
+
+.layanan {
+    border-style: solid;
+    width: 26%;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.p1 {
+    color: white;
+    font-family: poppins;
+    margin-left: 450px;
+}
+
+.p2 {
+    color: white;
+    font-family: poppins;
+}
+
+footer {
+    background: #150544;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+}
+
+.pooter {
+    margin-top: 28px;
+    color: white;
+    font-family: poppins;
+}
