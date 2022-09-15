@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/aos.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/stylep.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/view-landing.css">
     <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets\css\style.css">
 
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
@@ -37,51 +38,53 @@
     <script src="<?php echo base_url() ?>assets-landing/js/owl.carousel.min.js"></script>
     <script src="<?php echo base_url() ?>assets-landing/js/smoothscroll.js"></script>
     <script src="<?php echo base_url() ?>assets-landing/js/custom.js"></script>
+
 </head>
 
 <!-- MENU BAR -->
-<nav class="navbar navbar-expand-lg heading">
+<nav class="navbar navbar-expand-lg">
 
-    <div class="container container1">
+    <div class="container">
         <a class="navbar-brand" href="#">
-            <img src="<?php echo base_url() ?>assets/images/ini-inti.png" alt="logo umprop inti" width="75">
+            <img src="<?php echo base_url() ?>assets/images/ini-inti.png" class="" alt="logo umprop inti" width="75">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <ul class="navbar-nav ml-auto">
-            <div class="collapse navbar-collapse isi" id="navbarNav">
+        <ul class="navbar-nav ml-auto" style="margin-top:25px;">
+            <div class="collapse navbar-collapse" id="navbarNav" style="padding-right: -60px; font-family:poppins;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Home'); ?>" class="nav-link">Home</a>
+                        <a href="<?php echo site_url('Home'); ?>" class="nav-link" style="color: black;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/profil'); ?>" class="nav-link">Profil</a>
+                        <a href="<?php echo site_url('Content/profil'); ?>" class="nav-link" style="color: black;">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/layanan'); ?>" class="nav-link">Layanan INTI-CSIRT</a>
+                        <a href="<?php echo site_url('Content/layanan'); ?>" class="nav-link" style="color: black;">Layanan INTI-CSIRT</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content'); ?>" class="nav-link">RFC 2350</a>
+                        <a href="<?php echo site_url('Content'); ?>" class="nav-link" style="color: black;">RFC 2350</a>
                     </li>
-                    <li class="nav-item dropdown isi2">
-                        <a class="nav-link dropdown-toggle isi2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                    <li class="nav-item dropdown" style="margin-left:-10px;">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                        </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="<?php echo site_url('Content/indok/'); ?>">Informasi Dokumen</a></li>
-                            <li><a class="dropdown-item" href="#">Informasi Kontak</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/infodok/'); ?>">Informasi Dokumen</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/infokon/'); ?>">Informasi Kontak</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/tentang/'); ?>">Tentang INTI-CSIRT</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/kebijakan/'); ?>">Kebijakan</a></li>
-                            <li><a class="dropdown-item" href="#">Layanan INTI-CSIRT</a></li>
-                            <li><a class="dropdown-item" href="#">Dokumen Legal Pendukung</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/dokpen/'); ?>">Dokumen Legal Pendukung</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/alper/'); ?>">Alamat Pelaporan</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/siber'); ?>" class="nav-link">Aduan Siber</a>
+                        <a href="<?php echo site_url('Content/siber'); ?>" class="nav-link" style="color: black;">Aduan Siber</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url(); ?>" class="nav-link">Hubungi Kami</a>
+                        <a href="<?php echo site_url('Content/hubungi'); ?>" class="nav-link" style="color: black;">Hubungi Kami</a>
                     </li>
                 </ul>
             </div>
@@ -89,7 +92,7 @@
     </div>
 </nav>
 <div id="carouselSlider" class="carousel slide">
-    <div class="carousel-inner">
+    <div class="carousel-inner" style=" padding: 55px; margin-top: -54px; border: radius 10px; ">
         <div class="carousel-item active">
             <img src="<?php echo base_url() ?>assets/images/GDPR.jpg" width="1250" height="500" alt="First slide" class="rounded-4" style="border-radius: 25px;">
         </div>
@@ -106,32 +109,26 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-
 <!-- HERO -->
-<section class="isi3">
-    <div class="container b">
-        <h2 class="profil">PROFIL</h2>
-        <p class="p">Tim Tanggap Insiden Siber/Computer Security Inicident Response Team PT Industri Telekomunikasi Indonesia (INTI-CSIRT) ditetapkan oleh PT INTI (Persero) melalui Surat Keputusan Direksi No: KD.058/KP.14/020800/2022. Vice President Information Technology & Digital Service ditunjuk sebagai Ketua INTI-CSIRT dan ditugaskan untuk melaksanakan perumusan, perencanaan, pembangunan, pengoperasian, pengembangan, pengawasan, evaluasi dan anggaran terkait INTI-CSIRT. Layanan reaktif, yaitu layanan yang terkait dengan kebutuhan melakukan respon terhadap insiden siber termasuk penangkalan, penindakan dan pemulihan siber. Layanan proaktif, yaitu layanan yang mendeteksi dan mencegah serangan siber sebelum ada dampak nyata. INTI-CSIRT direncanakan akan resmi di-launching pada bulan Juli 2022 dan setiap pengguna sistem elektronik di lingkungan PT Industri Telekomunikasi Indonesia (PT INTI) dan anak perusahaannya merupakan konstituen dari INTI-CSIRT.
-            <br>
-            <br>
-            INTI-CSIRT melaksanakan layanan tanggap insiden siber, berupa :
+<section class="" style="width:100%; height: 600px;">
+    <div class="container" style="background-color: #150544; width:970px; height:650px; border-top-right-radius: 40px; margin-right:35px;">
+        <h2 style="border-style: solid; width:16%; padding: 20px; border-radius:20px; color:white; margin-left:100px; margin-top:35px;"> PROFIL</h2>
+        <p style="color: white; font-family:poppins; margin: right 50%; margin-left:420px; margin-top:55px;"><img src="<?php echo base_url(); ?>assets/images/logo-gembok.png" style="width:400px; margin-left: -530px; margin-top:-90px;">
+        </p>
+        <p style="color: white; font-family:poppins; margin: right 50%; margin-left:420px; margin-top:-390px;">Tim Tanggap Insiden Siber/Computer Security Inicident Response Team PT Industri Telekomunikasi Indonesia (INTI-CSIRT) ditetapkan oleh PT INTI (Persero) melalui Surat Keputusan Direksi No: KD.058/KP.14/020800/2022. Vice President Information Technology & Digital Service ditunjuk sebagai Ketua INTI-CSIRT dan ditugaskan untuk melaksanakan perumusan, perencanaan, pembangunan, pengoperasian, pengembangan, pengawasan, evaluasi dan anggaran terkait INTI-CSIRT. Layanan reaktif, yaitu layanan yang terkait dengan kebutuhan melakukan respon terhadap insiden siber termasuk penangkalan, penindakan dan pemulihan siber. Layanan proaktif, yaitu layanan yang mendeteksi dan mencegah serangan siber sebelum ada dampak nyata. INTI-CSIRT direncanakan akan resmi di-launching pada bulan Juli 2022 dan setiap pengguna sistem elektronik di lingkungan PT Industri Telekomunikasi Indonesia (PT INTI) dan anak perusahaannya merupakan konstituen dari INTI-CSIRT.
+            <br><br>INTI-CSIRT melaksanakan layanan tanggap insiden siber, berupa :
             <br>
             <br>
             Layanan reaktif, yaitu layanan yang terkait dengan kebutuhan melakukan respon terhadap insiden siber termasuk penangkalan, penindakan dan pemulihan siber. Layanan proaktif, yaitu layanan yang mendeteksi dan mencegah serangan siber sebelum ada dampak nyata. INTI-CSIRT direncanakan akan resmi di-launching pada bulan Juli 2022 dan setiap pengguna sistem elektronik di lingkungan PT Industri Telekomunikasi Indonesia (PT INTI) dan anak perusahaannya merupakan konstituen dari INTI-CSIRT.
         </p>
     </div>
 </section>
-<section class="">
-    <div class="container">
-
-    </div>
-</section>
-<footer class="site-footer footer">
+<footer class=" site-footer" style="background-color: #150544; ">
     <div id="bottom-footer">
-        <div class="tg-container">
-            <div class="mx-lg-auto text-center col-12">
-                <p class="copyright-text texf">
-                    Copyright &copy; 2022 <a href="https://csirt.inti.co.id/">INTI-CSIRT
+        <div class="tg-container" style="height: 100px; margin-top:200px;">
+            <div class="mx-lg-auto text-center col-12" style="background-color: #150544; ">
+                <p class="copyright-text" style="color:white; font-family: poppins;">
+                    Copyright &copy; 2022 INTI-CSIRT
                 </p>
             </div>
         </div>
@@ -139,4 +136,4 @@
 </footer>
 </body>
 
-</html>
+</html
