@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/aos.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/view-landing.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/#">
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets\css\style.css">
 
@@ -111,8 +111,8 @@
 </div>
 <!-- HERO -->
 <section class="" style="width:100%; height: 600px;">
-    <div class="container" style="background-color: #150544; width:970px; height:650px; border-top-right-radius: 40px; margin-right:35px;">
-        <h2 style="border-style: solid; width:16%; padding: 20px; border-radius:20px; color:white; margin-left:100px; margin-top:35px;"> PROFIL</h2>
+    <div class="container" style="background-color: #150544; width:950px; height:650px; border-top-right-radius: 40px; margin-right:70px;">
+        <h2 style="border-style: solid; width:16%; padding: 20px; border-radius:20px; color:white; margin-left:90px; margin-top:35px;"> PROFIL</h2>
         <p style="color: white; font-family:poppins; margin: right 50%; margin-left:420px; margin-top:55px;"><img src="<?php echo base_url(); ?>assets/images/logo-gembok.png" style="width:400px; margin-left: -530px; margin-top:-90px;">
         </p>
         <p style="color: white; font-family:poppins; margin: right 50%; margin-left:420px; margin-top:-390px;">Tim Tanggap Insiden Siber/Computer Security Inicident Response Team PT Industri Telekomunikasi Indonesia (INTI-CSIRT) ditetapkan oleh PT INTI (Persero) melalui Surat Keputusan Direksi No: KD.058/KP.14/020800/2022. Vice President Information Technology & Digital Service ditunjuk sebagai Ketua INTI-CSIRT dan ditugaskan untuk melaksanakan perumusan, perencanaan, pembangunan, pengoperasian, pengembangan, pengawasan, evaluasi dan anggaran terkait INTI-CSIRT. Layanan reaktif, yaitu layanan yang terkait dengan kebutuhan melakukan respon terhadap insiden siber termasuk penangkalan, penindakan dan pemulihan siber. Layanan proaktif, yaitu layanan yang mendeteksi dan mencegah serangan siber sebelum ada dampak nyata. INTI-CSIRT direncanakan akan resmi di-launching pada bulan Juli 2022 dan setiap pengguna sistem elektronik di lingkungan PT Industri Telekomunikasi Indonesia (PT INTI) dan anak perusahaannya merupakan konstituen dari INTI-CSIRT.
