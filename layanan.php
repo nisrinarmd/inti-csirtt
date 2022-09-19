@@ -59,10 +59,10 @@
 </head>
 
 <!-- MENU BAR -->
-<nav class="navbar navbar-expand-lg nav1" style="margin-top: -10px;">
+<nav class="navbar navbar-expand-lg" style="margin-top: -10px;">
 
-    <div class="container1" style="width: 100%; ">
-        <a class="navbar-brand cont2" href="#" style="padding: 15px; margin-top: -10px; margin-left:0px;">
+    <div class="container" style="width: 100%; ">
+        <a class="navbar-brand" href="#" style="padding: 15px; margin-top: -10px; margin-left:0px;">
             <img src="<?php echo base_url() ?>assets/images/ini-inti.png" class="" alt="logo umprop inti" width="75">
         </a>
 
@@ -70,46 +70,48 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <ul class="navbar-nav ml-auto cont3" style="margin-top:25px;">
-            <div class="collapse navbar-collapse col1" id="navbarNav" style="padding-right: -60px; font-family:poppins;">
+        <ul class="navbar-nav ml-auto" style="margin-top:25px;">
+            <div class="collapse navbar-collapse" id="navbarNav" style="padding-right: -60px; font-family:poppins;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Home'); ?>" class="nav-link">Home</a>
+                        <a href="<?php echo site_url('Home'); ?>" class="nav-link" style="color: black;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/profil'); ?>" class="nav-link">Profil</a>
+                        <a href="<?php echo site_url('Content/profil'); ?>" class="nav-link" style="color: black;">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url(); ?>" class="nav-link">Layanan INTI-CSIRT</a>
+                        <a href="<?php echo site_url('Content/layanan'); ?>" class="nav-link" style="color: black;">Layanan INTI-CSIRT</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content'); ?>" class="nav-link">RFC 2350</a>
+                        <a href="<?php echo site_url('Content'); ?>" class="nav-link" style="color: black;">RFC 2350</a>
                     </li>
-                    <li class="nav-item dropdown dropdown" style="margin-left:-10px;">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item dropdown" style="margin-left:-10px;">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/indok/'); ?>">Informasi Dokumen</a></li>
-                            <li><a class="dropdown-item" href="#">Informasi Kontak</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/informasi/'); ?>">Informasi Kontak</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/tentang/'); ?>">Tentang INTI-CSIRT</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/kebijakan/'); ?>">Kebijakan</a></li>
-                            <li><a class="dropdown-item" href="#">Layanan INTI-CSIRT</a></li>
-                            <li><a class="dropdown-item" href="#">Dokumen Legal Pendukung</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/dokpen/'); ?>">Dokumen Legal Pendukung</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/alper/'); ?>">Alamat Pelaporan</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/siber'); ?>" class="nav-link">Aduan Siber</a>
+                        <a href="<?php echo site_url('Content/siber'); ?>" class="nav-link" style="color: black;">Aduan Siber</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url(); ?>" class="nav-link">Hubungi Kami</a>
+                        <a href="<?php echo site_url('Content/hubungi'); ?>" class="nav-link" style="color: black;">Hubungi Kami</a>
                     </li>
                 </ul>
             </div>
         </ul>
     </div>
 </nav>
+
+
 <div id="carouselSlider" class="carousel slide">
-    <div class="carousel-inner carin" style=" padding: 55px; margin-top: -54px; border: radius 10px; ">
+    <div class="carousel-inner" style=" padding: 55px; margin-top: -54px; border: radius 10px; ">
         <div class="carousel-item active">
             <img src="<?php echo base_url() ?>assets/images/GDPR.jpg" width="1250" height="500" alt="First slide" class="rounded-4" style="border-radius: 25px;">
         </div>
@@ -126,67 +128,66 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-
-
 <!-- HERO -->
-<section class="rounded-4 konten" style="background-color: #150544; height:1500px; width:75%; border-top-right-radius: 50px; margin-left:250px;">
+<section class="rounded-4 konten" style="background-color: #150544; height:2200px; width:75%; border-top-right-radius: 50px; margin-left:250px;">
     <div class="container" style="width: 100%;">
-        <h2 class="h2" style="color:white; font-family: poppins; margin-left:100px;">LAYANAN INTI</h2>
-        <br><br>
-        <h3 class="h3a" style="color:white; font-family: poppins; margin-left:450px;">1. Pemberian Peringatan Terkait Keamanan Siber
-        </h3>
-        <p class="p1" style="color:white; font-family: poppins; margin-left:450px;">
+        <h2 class="h2" style="border-style: solid; width:26%; padding: 20px; border-radius:20px; color:white; margin-left:100px; margin-top:35px;">LAYANAN INTI</h2>
+        <br><br><img src="<?php echo base_url(); ?>assets/images/layanan1.png" style="width:400px; margin-left: -63px; margin-top:-90px;">
+        <h3 class="h3a" style="color:white; font-family: poppins; margin-left:400px; margin-top: -250px;"><b style="font-size: 40px;">1.</b><b> Pemberian Peringatan Terkait Keamanan Siber
+            </b></h3>
+        <h4 class="p1" style="color:white; font-family: poppins; margin-left:400px;">
             Layanan ini dilaksanakan oleh INTI-CSIRT berupa pemberian peringatan adanya insiden siber kepada konstituen.
-        <p>
-            <br><br>
-        <h3 class="h3b" style="color:white; font-family: poppins;">2. Penanganan Insiden Siber
-        </h3>
-        <p class="p2" style="color:white; font-family: poppins;">
-            Layanan ini diberikan berupa kegiatan menerima, menanggapi, dan menganalisis Insiden Siber
-        <p>
-            <br><br>
-        <h3 class="h3c" style="color:white; font-family: poppins; margin-left:450px;">3. Penanganan Kerawanan Sistem Elektronik
-        </h3>
-        <p class="p3" style="color:white; font-family: poppins; margin-left:450px;">
-            Layanan ini berupa koordinasi, analisis dan rekomendasi teknis dalam rangka penguatan aspek kendali keamanan (security control) baik dalam lingkup teknis ataupun non-teknis (Policy/Governance). Secara umum penanganan ini dibagi menjadi :
-            <br>1. Pelaporan kerawanan yang bersifat sewaktu oleh pemilik/penyelenggara sistem elektronik milik konstituen.
-            <br>2. Layanan penanganan kerawanan sebagai tindak lanjut dari kegiatan audit atau vulnerability assessment.
-        <p>
-            <br><br>
-        <h3 class="h3d" style="color:white; font-family: poppins;">4. Pemberitahuan Hasil Pengamatan Potensi Ancaman
-        </h3>
-        <p class="p4" style="color:white; font-family: poppins;">
-            Layanan ini diberikan berupa penyampaian kepada konstituen terkait ancaman terhadap Sistem Elektronik yang dapat muncul akibat perkembangan teknologi, politik, ekonomi, dan perkembangan lainnya.
-        <p>
-            <br><br>
-        <h3 hstyle="color:white; font-family: poppins; margin-left:450px;">5. Pendeteksian Serangan
-        </h3>
-        <p style="color:white; font-family: poppins; margin-left:450px;">
-            Tim INTI-CSIRT memiliki beberapa sistem untuk mendeteksi apakah sistem pada perusahaan yang bersangkutan dengan stakeholder aman atau memiliki risiko, sehingga dapat dilakukan penanggulangan sedini mungkin.
-        <p>
-            <br><br>
-        <h3 style="color:white; font-family: poppins;">6. Pembangunan Kesadaran dan Kepedulian Terhadap Keamanan Siber
-        </h3>
-        <p style="color:white; font-family: poppins;">
-            Tim INTI-CSIRT melakukan webinar mengenai isu sistem keamanan informasi.
-        <p>
+            <h4><br><br>
+
+                <img src="<?php echo base_url(); ?>assets/images/layanan2.png" style="width:400px; margin-left: 550px; margin-top: 40px;">
+                <h3 class="h3b" style="color:white; font-family: poppins; margin-top: -250px;">
+                    <b style=" font-size:40px ;">2.</b><b> Penanganan Insiden Siber</b>
+                </h3>
+                <h4 class="p2" style="color:white; font-family: poppins;">
+                    Layanan ini diberikan berupa kegiatan menerima,<br> menanggapi, dan menganalisis Insiden Siber
+                </h4><br><br>
+
+                <img src="<?php echo base_url(); ?>assets/images/layanan3.png" style="width:400px; margin-left: -63px; margin-top:50px;">
+                <h3 class="h3c" style="color:white; font-family: poppins; margin-left:450px; margin-top:-300px ;">
+                    <b style="font-size:40px;">3.</b><b> Penanganan Kerawanan Sistem Elektronik</b>
+                </h3>
+                <h4 class="p3" style="color:white; font-family: poppins; margin-left:450px;">
+                    Layanan ini berupa koordinasi, analisis dan rekomendasi teknis dalam rangka penguatan aspek kendali keamanan (security control) baik dalam lingkup teknis ataupun non-teknis (Policy/Governance). Secara umum penanganan ini dibagi menjadi :
+                    <br>1. Pelaporan kerawanan yang bersifat sewaktu oleh pemilik/penyelenggara sistem elektronik milik konstituen.
+                    <br>2. Layanan penanganan kerawanan sebagai tindak lanjut dari kegiatan audit atau vulnerability assessment.
+                </h4><br><br>
+
+                <img src="<?php echo base_url(); ?>assets/images/layanan4.png" style="width:400px; margin-left: 550px; margin-top: -50px;">
+                <h3 class="h3d" style="color:white; font-family: poppins; margin-top:-300px;">
+                    <b style="font-size:40px;">4.</b><b> Pemberitahuan Hasil Pengamatan<br> Potensi Ancaman</b>
+                </h3>
+                <h4 class="p4" style="color:white; font-family: poppins;">
+                    Layanan ini diberikan berupa penyampaian kepada<br> konstituen terkait ancaman terhadap Sistem Elektronik<br> yang dapat muncul akibat perkembangan teknologi,<br> politik, ekonomi, dan perkembangan lainnya.
+                </h4><br><br>
+
+                <img src="<?php echo base_url(); ?>assets/images/layanan5.png" style="width:400px; margin-left: 0px; margin-top: 50px;">
+                <h3 style="color:white; font-family: poppins; margin-left:450px; margin-top: -250px;">
+                    <b style="font-size:40px;">5.</b><b> Pendeteksian Serangan
+                    </b>
+                </h3>
+                <h4 style="color:white; font-family: poppins; margin-left:450px;">
+                    Tim INTI-CSIRT memiliki beberapa sistem untuk mendeteksi apakah sistem pada perusahaan yang bersangkutan dengan stakeholder aman atau memiliki risiko, sehingga dapat dilakukan penanggulangan sedini mungkin.
+                </h4><br><br>
+
+                <img src="<?php echo base_url(); ?>assets/images/layanan6.png" style="width:400px; margin-left: 550px; margin-top: 25px;">
+                <h3 style="color:white; font-family: poppins; margin-top: -250px;">
+                    <b style="font-size:40px;">6.</b><b> Pembangunan Kesadaran dan <br>Kepedulian Terhadap Keamanan Siber
+                    </b>
+                </h3>
+                <h4 style="color:white; font-family: poppins;">
+                    Tim INTI-CSIRT melakukan webinar mengenai isu <br>sistem keamanan informasi.
+                </h4>
     </div>
 </section>
 <section class="" style="background-color: white; ">
-    <div class="container">
-
-    </div>
 </section>
-<footer class=" site-footer" style="background-color: #150544;">
-    <div id="bottom-footer">
-        <div class="tg-container">
-            <div class="mx-lg-auto text-center col-12" style="background-color: #150544; height: 50px;">
-                <p class="copyright-text" style="color:white; margin-top:px;">
-                    Copyright &copy; 2022 <a href="https://csirt.inti.co.id/">INTI-CSIRT
-                </p>
-            </div>
-        </div>
-    </div>
+<footer style="background:#150544; padding:10px; text-align:center; height:100px;">
+    <p style="margin-top: 28px; color:white; font-family:poppins;">Copyright &copy; 2022 INTI-CSIRT</p>
 </footer>
 </body>
 
