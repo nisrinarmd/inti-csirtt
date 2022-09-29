@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/aos.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/owl.theme.default.min.css">
+
     <!-- Style.css -->
-    <!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets\css\style.css"> -->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets\css\style.css">
 
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
@@ -31,29 +32,43 @@
     <!-- SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!-- <script src="<?php echo base_url() ?>assets-landing/js/jquery.min.js"></script>
-	<script src="<?php echo base_url() ?>assets-landing/js/bootstrap.min.js"></script> -->
-    <!-- <script src="<?php echo base_url() ?>assets-landing/js/aos.js"></script> -->
+    <script src="<?php echo base_url() ?>assets-landing/js/jquery.min.js"></script>
+    <script src="<?php echo base_url() ?>assets-landing/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url() ?>assets-landing/js/aos.js"></script>
     <script src="<?php echo base_url() ?>assets-landing/js/owl.carousel.min.js"></script>
     <script src="<?php echo base_url() ?>assets-landing/js/smoothscroll.js"></script>
-    <!-- <script src="<?php echo base_url() ?>assets-landing/js/custom.js"></script> -->
+    <script src="<?php echo base_url() ?>assets-landing/js/custom.js"></script>
 
     <style>
-        html,
-        body {
-            margin: 0;
-            height: 100%;
-            width: 100%;
-            padding: 0;
+        .container {
+            border-radius: 20px;
+            position: relative;
         }
 
-        section {
-            display: block;
-            height: 100%;
-            width: 100%;
-            padding: 30px;
-            padding-left: 0px;
-            box-sizing: border-box;
+        .carousel-inner {
+            border-radius: 20px;
+        }
+
+        .carousel-item {
+            margin-top: 50px;
+        }
+
+        .carousel-item img {
+            left: 0;
+            min-width: 100%;
+            height: 474px;
+            border-radius: 50px;
+        }
+
+        .left {
+            min-width: 30%;
+            height: 50%;
+            position: absolute;
+            top: 35%;
+            left: -2%;
+            background-color: #150544;
+            border-radius: 20px;
+            z-index: 9;
         }
     </style>
 </head>
@@ -63,71 +78,78 @@
 
     <div class="container" style="width: 100%; ">
         <a class="navbar-brand" href="#" style="padding: 15px; margin-top: -10px; margin-left:0px;">
-            <img src="<?php echo base_url() ?>assets/images/ini-inti.png" class="" alt="logo umprop inti" width="65">
+            <img src="<?php echo base_url() ?>assets/images/ini-inti.png" class="" alt="logo umprop inti" width="75">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <ul class="navbar-nav ml-auto" style="margin-top:20px;">
-            <div class="collapse navbar-collapse" id="navbarNav" style="padding-right: -60px;">
+        <ul class="navbar-nav ml-auto" style="margin-top:25px;">
+            <div class="collapse navbar-collapse" id="navbarNav" style="padding-right: -60px; font-family:poppins;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Home'); ?>" class="nav-link">Home</a>
+                        <a href="<?php echo site_url('Home'); ?>" class="nav-link" style="color: black;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url(); ?>" class="nav-link">Profil</a>
+                        <a href="<?php echo site_url('Content/profil'); ?>" class="nav-link" style="color: black;">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url(); ?>" class="nav-link">Layanan INTI-CSIRT</a>
+                        <a href="<?php echo site_url('Content/layanan'); ?>" class="nav-link" style="color: black;">Layanan INTI-CSIRT</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content'); ?>" class="nav-link">RFC 2350</a>
+                        <a href="<?php echo site_url(''); ?>" class="nav-link" style="color: black;">RFC 2350</a>
                     </li>
                     <li class="nav-item dropdown" style="margin-left:-10px;">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Informasi Dokumen</a></li>
-                            <li><a class="dropdown-item" href="#">Informasi Kontak</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/indok/'); ?>">Informasi Dokumen</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/informasi/'); ?>">Informasi Kontak</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/tentang/'); ?>">Tentang INTI-CSIRT</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/kebijakan/'); ?>">Kebijakan</a></li>
-                            <li><a class="dropdown-item" href="#">Layanan INTI-CSIRT</a></li>
-                            <li><a class="dropdown-item" href="#">Dokumen Legal Pendukung</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/dokpen/'); ?>">Dokumen Legal Pendukung</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/alper/'); ?>">Alamat Pelaporan</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/siber'); ?>" class="nav-link">Aduan Siber</a>
+                        <a href="<?php echo site_url('Content/siber'); ?>" class="nav-link" style="color: black;">Aduan Siber</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url(); ?>" class="nav-link">Hubungi Kami</a>
+                        <a href="<?php echo site_url('Content/hubungi'); ?>" class="nav-link" style="color: black;">Hubungi Kami</a>
                     </li>
                 </ul>
             </div>
         </ul>
     </div>
 </nav>
-<section class="" style="background-color: #F2F2F2; height:10px;">
-    <div class="container">
-        <div class="row" style="margin-top:-15px">
-            <h4> RFC 2350 </h4>
-        </div>
-    </div>
-</section>
+
 <section>
     <div class="container">
-        <div class="row" style="margin-top:-10px; padding: 35px; margin-left:-70px;">
-            <p>Dokumen RFC 2350 merupakan dokumen persyaratan yang wajib dipenuhi dalam membentuk CSIRT-INTI sehingga terdaftar sebagai CSIRT Organisasi di Badan Siber dan Sandi Negara (BSSN).
-                <br>Dokumen ini memuat beberapa informasi antara lain:
-                <br>1. Informasi Dokumen
-                <br>2. Informasi Kontak
-                <br>3. Tentang CSIRT-INTI
-                <br>4. Kebijakan
-                <br>5. Layanan CSIRT-INTI
-                <br>6. Alamat Pelaporan
-                <br>7. Dokumen Legal Pendukung
-            </p>
+        <div class="left">
+            <p style="color: white; font-family:poppins; margin-top:30px; margin-left:35px;">PT Industri Telekomunikasi Indoenesia<br>(INTI-CSIRT)</p>
+            <h3 style="color: white; font-family:poppins; margin-top:10px; margin-left:35px;">CSIRT INTI</h3>
+            <h5 style="color: white; font-family:poppins; margin-top:10px; margin-left:35px;">Computer Securty Incident<br>Response Team</h5>
+            <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:35px; margin-top:20px; height:40px; width:100px">
+                <a href="<?php echo base_url('auth') ?>" style="color: white;"> Login <span class="btn-label"><i class="fa fa-chevron-right"></i></span></button>
+        </div>
+        <div id="carouselSlider" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item-active">
+                    <img class="d-block w-100 img-fluid" src="<?php echo base_url() ?>assets/images/GDPR.jpg" alt="First slide">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="<?php echo base_url() ?>assets/images/GLOBE.jpg" alt="Second slide">
+            </div>
+            <a class="carousel-control-prev" href="#carouselSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 </section>
