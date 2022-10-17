@@ -26,6 +26,8 @@
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <!-- MAIN CSS
@@ -220,106 +222,131 @@
 </nav>
 
 <!-- HERO -->
-<section class="" style="width:100%; height: 600px;">
-    <div class="container" style="background-color: #150544; width:960px; height:510px; border-top-right-radius: 40px; margin-right:110px; margin-top:80px;">
-        <h2 style="border-style: solid; width:18%; padding: 20px; border-radius:20px; color:white; margin-left:100px; margin-top:35px;"> BULETIN</h2>
-        <p style="color: white; font-family:poppins; margin: right 50%; margin-left:45%; margin-top:60px;"><img src="<?php echo base_url() ?>assets/images/berita.png" style="width:80%; margin-left: -80% ;margin-top:-90px;">
-        </p>
-        <p style="color: white; font-family:poppins; margin: right 50%; margin-left:50%; margin-top: -32%;">Apakah Lorem Ipsum itu?
-            <br>
-            <br>
-            Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting.
-            Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal
-            mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan
-            selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan apapun. Ia mulai
-            dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang menggunakan kalimat-kalimat
-            dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing seperti Aldus PageMaker juga memiliki
-            versi Lorem Ipsum.
-        </p>
+<section class="" style="width:100%;">
+    <div class="container" style="background-color: #150544; width:960px; height:100px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; margin-right:110px; margin-top:80px;">
+        <h1 style="color: white; font-family:poppins;"><img src="<?php echo base_url() ?>assets/images/berita.png" style="width:25%; margin-top:-70px; margin-left :-170px;">
+            <p style="font-size: 150%; margin-top: -120px; margin-left: 100px;">BULETIN</p>
+        </h1>
+
     </div>
 </section>
 <section class="">
-    <div class="container col-12">
-        <p style="color:#150544; font-family: poppins; margin-left: 55px; margin-top:20px;">NEWS</p>
-        <h3 style="color:#150544; font-family: poppins; margin-left: 55px; margin-top:20px;"><b>news update for you</b></h3>
-        <div class="col-md-12">
-            <form action="https://goo.gl/maps/DMUmoieZ1eRAvnG2A">
-                <button type="submit" class="btn btn-labeled" style="color: #656565; margin-left: 1000px; margin-top:-90px; background-color:#F2F2F2; width:200px; font-family: poppins; height:40px; border-radius:5px;">
-                    <i class="fa-solid fa-location-dot"></i> Bandung, Indonesia<span class="btn-label"><i class="fa fa-chevron-down"></i></span>
-                </button>
-            </form>
-        </div>
-        <div class="fill">
-            <div class="container" style="border-radius: 20px; position: relative;">
-                <div class="center">
-                    <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-Day pada Apache<br>Java Logging Library LOG4J</b>
-                        <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:86px; border-radius:12px; margin-top:-5px;">
-                            <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                    </p>
-                </div>
-                <div class="center2">
-                    <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-day Windows 11 :<br> Membuat Siapapun Menjadi Admin</b>
-                        <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:42px; border-radius:12px; margin-top:-5px;">
-                            <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                    </p>
-                </div>
-                <div class="center3">
-                    <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Tips: Membuat Strong Password <br> (Kata Sandi Yang Aman)</b>
-                        <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:102px; border-radius:12px; margin-top:-5px;">
-                            <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                    </p>
-                </div>
-                <img src="<?php echo base_url() ?>assets/images/berita1.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 10px; border-radius: 25px; margin-top:0px;">
-                <img src="<?php echo base_url() ?>assets/images/berita2.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 20px; border-radius: 25px; margin-top:0px;">
-                <img src="<?php echo base_url() ?>assets/images/berita3.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 22px; border-radius: 25px; margin-top:0px;">
+
+    <div class="card mb-3" style="width: 82%; margin-top: 50px; margin-left: 130px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="<?php echo base_url() ?>assets/images/berita1.jpg" class="rounded-4" style="width: 250px; height: 250px; border-radius: 25px; ">
             </div>
-            <div class="container mt-4" style="border-radius: 20px; position: relative;">
-                <div class="center">
-                    <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-Day pada Apache<br>Java Logging Library LOG4J</b>
-                        <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:86px; border-radius:12px; margin-top:-5px;">
-                            <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                    </p>
+            <div class="col-md-8">
+                <div class="card-body" style="margin-left: -50px;">
+                    <h5 class="card-title" style=" font-size: 22px; font-family: poppins; "><b>Kerentanan Zero-Day pada Apache Java Logging Library LOG4J</b></h5>
+                    <p class="card-text">Manifesting, 2023 jadi kak jule aamiin. </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
-                <div class="center2">
-                    <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-day Windows 11 :<br> Membuat Siapapun Menjadi Admin</b>
-                        <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:42px; border-radius:12px; margin-top:-5px;">
-                            <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                    </p>
-                </div>
-                <div class="center3">
-                    <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Tips: Membuat Strong Password <br> (Kata Sandi Yang Aman)</b>
-                        <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:102px; border-radius:12px; margin-top:-5px;">
-                            <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                    </p>
-                </div>
-                <img src="<?php echo base_url() ?>assets/images/berita1.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 10px; border-radius: 25px; margin-top:0px;">
-                <img src="<?php echo base_url() ?>assets/images/berita2.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 20px; border-radius: 25px; margin-top:0px;">
-                <img src="<?php echo base_url() ?>assets/images/berita3.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 22px; border-radius: 25px; margin-top:0px;">
-            </div>
-            <div class="container mt-4" style="border-radius: 20px; position: relative;">
-                <div class="center">
-                    <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-Day pada Apache<br>Java Logging Library LOG4J</b>
-                        <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:86px; border-radius:12px; margin-top:-5px;">
-                            <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                    </p>
-                </div>
-                <div class="center2">
-                    <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-day Windows 11 :<br> Membuat Siapapun Menjadi Admin</b>
-                        <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:42px; border-radius:12px; margin-top:-5px;">
-                            <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                    </p>
-                </div>
-                <div class="center3">
-                    <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Tips: Membuat Strong Password <br> (Kata Sandi Yang Aman)</b>
-                        <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:102px; border-radius:12px; margin-top:-5px;">
-                            <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                    </p>
-                </div>
-                <img src="<?php echo base_url() ?>assets/images/berita1.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 10px; border-radius: 25px; margin-top:0px;">
-                <img src="<?php echo base_url() ?>assets/images/berita2.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 20px; border-radius: 25px; margin-top:0px;">
-                <img src="<?php echo base_url() ?>assets/images/berita3.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 22px; border-radius: 25px; margin-top:0px;">
             </div>
         </div>
+    </div>
+
+    <div class="card mb-3" style="width: 82%; margin-top: 15px; margin-left: 130px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="<?php echo base_url() ?>assets/images/berita2.jpg" class="rounded-4" style="width: 250px; height: 250px; border-radius: 25px; ">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body" style="margin-left: -50px;">
+                    <p class="card-title" style=" font-family: poppins; font-size: 22px;"><b>Kerentanan Zero-day Windows 11 : Membuat Siapapun Menjadi Admin</b></p>
+                    <p class="card-text">aku jodohnya doyoung sama jungwoo ya ges ya. </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3" style="width: 82%; margin-top: 15px; margin-left: 130px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="<?php echo base_url() ?>assets/images/berita3.jpg" class="rounded-4" style="width: 250px; height: 250px; border-radius: 25px; ">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body" style="margin-left: -50px;">
+                    <h5 class="card-title" style=" font-size: 22px; font-family: poppins; "><b>Tips: Membuat Strong Password (Kata Sandi Yang Aman)</b></h5>
+                    <p class="card-text">Manifesting, 2023 jadi kak jule aamiin. </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fill">
+        <div class="container" style="border-radius: 20px; position: relative;">
+            <div class="center">
+                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-Day pada Apache<br>Java Logging Library LOG4J</b>
+                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:86px; border-radius:12px; margin-top:-5px;">
+                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
+                </p>
+            </div>
+            <div class="center2">
+                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-day Windows 11 :<br> Membuat Siapapun Menjadi Admin</b>
+                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:42px; border-radius:12px; margin-top:-5px;">
+                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
+                </p>
+            </div>
+            <div class="center3">
+                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Tips: Membuat Strong Password <br> (Kata Sandi Yang Aman)</b>
+                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:102px; border-radius:12px; margin-top:-5px;">
+                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
+                </p>
+            </div>
+            <img src="<?php echo base_url() ?>assets/images/berita1.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 10px; border-radius: 25px; margin-top:0px;">
+            <img src="<?php echo base_url() ?>assets/images/berita2.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 20px; border-radius: 25px; margin-top:0px;">
+            <img src="<?php echo base_url() ?>assets/images/berita3.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 22px; border-radius: 25px; margin-top:0px;">
+        </div>
+        <div class="container mt-4" style="border-radius: 20px; position: relative;">
+            <div class="center">
+                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-Day pada Apache<br>Java Logging Library LOG4J</b>
+                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:86px; border-radius:12px; margin-top:-5px;">
+                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
+                </p>
+            </div>
+            <div class="center2">
+                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-day Windows 11 :<br> Membuat Siapapun Menjadi Admin</b>
+                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:42px; border-radius:12px; margin-top:-5px;">
+                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
+                </p>
+            </div>
+            <div class="center3">
+                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Tips: Membuat Strong Password <br> (Kata Sandi Yang Aman)</b>
+                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:102px; border-radius:12px; margin-top:-5px;">
+                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
+                </p>
+            </div>
+            <img src="<?php echo base_url() ?>assets/images/berita1.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 10px; border-radius: 25px; margin-top:0px;">
+            <img src="<?php echo base_url() ?>assets/images/berita2.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 20px; border-radius: 25px; margin-top:0px;">
+            <img src="<?php echo base_url() ?>assets/images/berita3.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 22px; border-radius: 25px; margin-top:0px;">
+        </div>
+        <div class="container mt-4" style="border-radius: 20px; position: relative;">
+            <div class="center">
+                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-Day pada Apache<br>Java Logging Library LOG4J</b>
+                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:86px; border-radius:12px; margin-top:-5px;">
+                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
+                </p>
+            </div>
+            <div class="center2">
+                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-day Windows 11 :<br> Membuat Siapapun Menjadi Admin</b>
+                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:42px; border-radius:12px; margin-top:-5px;">
+                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
+                </p>
+            </div>
+            <div class="center3">
+                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Tips: Membuat Strong Password <br> (Kata Sandi Yang Aman)</b>
+                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:102px; border-radius:12px; margin-top:-5px;">
+                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
+                </p>
+            </div>
+            <img src="<?php echo base_url() ?>assets/images/berita1.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 10px; border-radius: 25px; margin-top:0px;">
+            <img src="<?php echo base_url() ?>assets/images/berita2.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 20px; border-radius: 25px; margin-top:0px;">
+            <img src="<?php echo base_url() ?>assets/images/berita3.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 22px; border-radius: 25px; margin-top:0px;">
+        </div>
+    </div>
     </div>
 </section>
 <footer style="background:#150544; padding:10px; text-align:center; height:100px; margin-top:500px">
