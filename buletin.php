@@ -235,6 +235,21 @@
     <div class="card mb-3" style="width: 82%; margin-top: 50px; margin-left: 130px;">
         <div class="row g-0">
             <div class="col-md-4">
+                <img src="<?php echo base_url() ?>assets/images/cyber.jpeg" class="rounded-4" style="width: 250px; height: 250px; border-radius: 25px; ">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body" style="margin-left: -50px;">
+                    <h5 class="card-title" style=" font-size: 22px; font-family: poppins; "><b>Audiensi dengan Kapolri, Ajaib Dukung Cyber Security di RI</b></h5>
+                    <p class="card-text">Ajaib Sekuritas bekerja sama dengan Divisi Teknologi Informasi dan Komunikasi Polri untuk memajukan teknologi dan juga tingkat keamanannya di Indonesia. Kapolri Jenderal Listyo Sigit Prabowo bertemu dengan Ajaib Group yang diwakili oleh Baca selengkapnya...</p>
+                    <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-3" style="width: 82%; margin-top: 50px; margin-left: 130px;">
+        <div class="row g-0">
+            <div class="col-md-4">
                 <img src="<?php echo base_url() ?>assets/images/berita1.jpg" class="rounded-4" style="width: 250px; height: 250px; border-radius: 25px; ">
             </div>
             <div class="col-md-8">
