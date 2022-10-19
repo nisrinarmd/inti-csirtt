@@ -186,19 +186,19 @@
             <div class="collapse navbar-collapse" id="navbarNav" style="padding-right: -60px; font-family:poppins;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Home'); ?>" class="nav-link" style="color: black;">Home</a>
+                        <a href="<?php echo site_url('Home'); ?>" class="nav-link" style="color: black; margin-right: 30px;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/profil'); ?>" class="nav-link" style="color: black;">Profil</a>
+                        <a href="<?php echo site_url('Content/profil'); ?>" class="nav-link" style="color: black; margin-right: 30px;">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/layanan'); ?>" class="nav-link" style="color: black;">Layanan INTI-CSIRT</a>
+                        <a href="<?php echo site_url('Content/layanan'); ?>" class="nav-link" style="color: black; margin-right: 30px;">Layanan INTI-CSIRT</a>
                     </li>
                     <li class="nav-item">
                         <a href="<?php echo site_url(''); ?>" class="nav-link" style="color: black;">RFC 2350</a>
                     </li>
                     <li class="nav-item dropdown" style="margin-left:-10px;">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black; margin-right: 30px;">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/indok/'); ?>">Informasi Dokumen</a></li>
@@ -210,7 +210,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/siber'); ?>" class="nav-link" style="color: black;">Aduan Siber</a>
+                        <a href="<?php echo site_url('Content/siber'); ?>" class="nav-link" style="color: black; margin-right: 30px;">Aduan Siber</a>
                     </li>
                     <li class="nav-item">
                         <a href="<?php echo site_url('Content/hubungi'); ?>" class="nav-link" style="color: black;">Hubungi Kami</a>
@@ -241,7 +241,7 @@
                 <div class="card-body" style="margin-left: -50px;">
                     <h5 class="card-title" style=" font-size: 22px; font-family: poppins; "><b>Kerentanan Zero-Day pada Apache Java Logging Library LOG4J</b></h5>
                     <p class="card-text">Manifesting, 2023 jadi kak jule aamiin. </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
                 </div>
             </div>
         </div>
@@ -323,33 +323,11 @@
             <img src="<?php echo base_url() ?>assets/images/berita2.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 20px; border-radius: 25px; margin-top:0px;">
             <img src="<?php echo base_url() ?>assets/images/berita3.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 22px; border-radius: 25px; margin-top:0px;">
         </div>
-        <div class="container mt-4" style="border-radius: 20px; position: relative;">
-            <div class="center">
-                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-Day pada Apache<br>Java Logging Library LOG4J</b>
-                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:86px; border-radius:12px; margin-top:-5px;">
-                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                </p>
-            </div>
-            <div class="center2">
-                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-day Windows 11 :<br> Membuat Siapapun Menjadi Admin</b>
-                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:42px; border-radius:12px; margin-top:-5px;">
-                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                </p>
-            </div>
-            <div class="center3">
-                <p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Tips: Membuat Strong Password <br> (Kata Sandi Yang Aman)</b>
-                    <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:102px; border-radius:12px; margin-top:-5px;">
-                        <span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
-                </p>
-            </div>
-            <img src="<?php echo base_url() ?>assets/images/berita1.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 10px; border-radius: 25px; margin-top:0px;">
-            <img src="<?php echo base_url() ?>assets/images/berita2.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 20px; border-radius: 25px; margin-top:0px;">
-            <img src="<?php echo base_url() ?>assets/images/berita3.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 22px; border-radius: 25px; margin-top:0px;">
-        </div>
+
     </div>
     </div>
 </section>
-<footer style="background:#150544; padding:10px; text-align:center; height:100px; margin-top:500px">
+<footer style="background:#150544; padding:10px; text-align:center; height:100px; margin-top:100px">
     <p style="margin-top: 28px; color:white; font-family:poppins;">Copyright &copy; 2022 INTI-CSIRT</p>
 </footer>
 </body>
